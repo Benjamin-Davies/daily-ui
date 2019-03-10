@@ -1,0 +1,68 @@
+body {
+  background: url('aoraki.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: maroon;
+  font-size: 5rem;
+  background: #eee7;
+  padding: 1rem 0;
+}
+
+.center-column {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr 3fr;
+  grid-gap: 1rem;
+
+  margin: 5rem 0;
+  padding: 2rem;
+  text-align: left;
+
+  background: tan;
+  box-shadow: 3px 5px 11px #333;
+}
+
+form h2 {
+  grid-column: span 4;
+}
+
+form .wide {
+  grid-column: span 3;
+}
+
+input,
+textarea {
+  border: none;
+  background: blanchedalmond;
+  resize: none;
+  outline-color: powderblue;
+
+  font: 1rem serif;
+}
+
+button {
+  background: cornflowerblue;
+  border: none;
+  font-size: 2rem;
+  color: #eee;
+  padding: 0.5rem 2rem;
+  box-shadow: 3px 5px 11px #333;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 4px 7px 14px #333;
+  color: white;
+}
